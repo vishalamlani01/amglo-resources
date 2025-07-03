@@ -40,154 +40,198 @@
         </script><!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Amglo Resources - Non-Ferrous Metals Trading</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    /* Custom fade-in animation */
-    .fade-in {
-      opacity: 0;
-      transform: translateY(20px);
-      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-    }
-    .fade-in.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  </style>
-</head>
-<body class="bg-gray-900 text-white font-sans">
-  <!-- Header -->
-  <header class="bg-gray-800 sticky top-0 z-20 shadow-lg">
-    <nav class="container mx-auto flex justify-between items-center py-4 px-6">
-      <h1 class="text-3xl font-bold">Amglo Resources</h1>
-      <ul class="flex space-x-8">
-        <li><a href="#home" class="hover:text-orange-500 transition-colors">Home</a></li>
-        <li><a href="#services" class="hover:text-orange-500 transition-colors">Services</a></li>
-        <li><a href="#markets" class="hover:text-orange-500 transition-colors">Markets</a></li>
-        <li><a href="#about" class="hover:text-orange-500 transition-colors">About</a></li>
-        <li><a href="#contact" class="hover:text-orange-500 transition-colors">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Hero Section -->
-  <section id="home" class="relative bg-cover bg-center h-screen" style="background-image: url('https://images.unsplash.com/photo-1518709268805-4e9042af592f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')">
-    <div class="absolute inset-0 bg-gray-900 bg-opacity-60"></div>
-    <div class="container mx-auto text-center px-6 py-40 relative z-10">
-      <h2 class="text-5xl font-bold mb-6 fade-in">Leading Non-Ferrous Metals Trading</h2>
-      <p class="text-xl mb-8 max-w-2xl mx-auto fade-in">Amglo Resources delivers global expertise in trading copper, aluminum, zinc, and more.</p>
-      <a href="#contact" class="bg-orange-500 text-white px-8 py-4 rounded-full hover:bg-orange-600 transition-colors fade-in">Get Started</a>
-    </div>
-  </section>
-
-  <!-- Services Section -->
-  <section id="services" class="py-24 bg-gray-800">
-    <div class="container mx-auto px-6">
-      <h2 class="text-4xl font-bold text-center mb-12 fade-in">Our Trading Services</h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow fade-in">
-          <img src="https://images.unsplash.com/photo-1501167788049-8d110b16649d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Metal Sourcing" class="w-full h-56 object-cover rounded-t-lg mb-4">
-          <h3 class="text-2xl font-semibold mb-4">Metal Sourcing</h3>
-          <p>Procuring high-quality non-ferrous metals from trusted global suppliers.</p>
-        </div>
-        <div class="bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow fade-in">
-          <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Logistics" class="w-full h-56 object-cover rounded-t-lg mb-4">
-          <h3 class="text-2xl font-semibold mb-4">Logistics Solutions</h3>
-          <p>Streamlined supply chain for efficient and reliable commodity delivery.</p>
-        </div>
-        <div class="bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow fade-in">
-          <img src="https://images.unsplash.com/photo-1551288049-bebda0e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Risk Management" class="w-full h-56 object-cover rounded-t-lg mb-4">
-          <h3 class="text-2xl font-semibold mb-4">Risk Management</h3>
-          <p>Advanced hedging strategies to navigate market volatility.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Markets Section -->
-  <section id="markets" class="py-24 bg-gray-900">
-    <div class="container mx-auto px-6">
-      <h2 class="text-4xl font-bold text-center mb-12 fade-in">Our Markets</h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow fade-in">
-          <img src="https://images.unsplash.com/photo-1594991922058-6060b03a02df?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Copper" class="w-full h-56 object-cover rounded-t-lg mb-4">
-          <h3 class="text-2xl font-semibold mb-4">Copper</h3>
-          <p>High-grade copper for industrial applications worldwide.</p>
-        </div>
-        <div class="bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow fade-in">
-          <img src="https://images.unsplash.com/photo-1611078489935-0cb7c4251e43?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Aluminum" class="w-full h-56 object-cover rounded-t-lg mb-4">
-          <h3 class="text-2xl font-semibold mb-4">Aluminum</h3>
-          <p>Versatile aluminum for automotive and aerospace industries.</p>
-        </div>
-        <div class="bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow fade-in">
-          <img src="https://images.unsplash.com/photo-1564419320461-6870880221ad?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Zinc" class="w-full h-56 object-cover rounded-t-lg mb-4">
-          <h3 class="text-2xl font-semibold mb-4">Zinc</h3>
-          <p>Zinc for galvanizing and alloy production needs.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section id="about" class="py-24 bg-gray-800">
-    <div class="container mx-auto px-6">
-      <h2 class="text-4xl font-bold text-center mb-12 fade-in">About Amglo Resources</h2>
-      <div class="flex flex-col md:flex-row items-center">
-        <div class="md:w-1/2 mb-8 md:mb-0">
-          <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Trading Floor" class="w-full h-80 object-cover rounded-lg">
-        </div>
-        <div class="md:w-1/2 md:pl-12 fade-in">
-          <p class="text-lg leading-relaxed">Amglo Resources is a global leader in non-ferrous metals trading. Our expertise spans sourcing, logistics, and risk management, delivering tailored solutions that drive value for our clients in a dynamic commodity market.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="py-24 bg-gray-900">
-    <div class="container mx-auto px-6">
-      <h2 class="text-4xl font-bold text-center mb-12 fade-in">Contact Us</h2>
-      <div class="max-w-lg mx-auto text-center fade-in">
-        <p class="mb-6">Email: <a href="mailto:info@amgloresources.com" class="text-orange-500 hover:underline">info@amgloresources.com</a></p>
-        <p class="mb-6">Phone: (123) 456-7890</p>
-        <p class="mb-8">Partner with us for your non-ferrous metals trading needs.</p>
-        <!-- Note: Form omitted due to sandbox restrictions; use Formspree or similar for forms -->
-        <a href="#contact" class="bg-orange-500 text-white px-8 py-4 rounded-full hover:bg-orange-600 transition-colors">Reach Out</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-gray-800 py-8">
-    <div class="container mx-auto text-center px-6">
-      <p class="text-sm">© 2025 Amglo Resources. All rights reserved.</p>
-    </div>
-  </footer>
-
-  <script>
-    // Smooth scrolling for navigation links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-        });
-      });
-    });
-
-    // Fade-in animation on scroll
-    const fadeElements = document.querySelectorAll('.fade-in');
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amglo Resources - Advancing Global Resources</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Roboto', sans-serif; }
+        .smooth-scroll { scroll-behavior: smooth; }
+        .product-tile {
+            transition: all 0.3s ease;
         }
-      });
-    }, { threshold: 0.1 });
+        .product-tile:hover {
+            transform: scale(1.1);
+            z-index: 10;
+        }
+        .product-details {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .product-tile:hover .product-details {
+            max-height: 200px;
+        }
+        .operation-card {
+            transition: all 0.3s ease;
+        }
+        .operation-card:hover {
+            transform: scale(1.1);
+            z-index: 10;
+        }
+        .bg-custom-gold {
+            background-color: #D4A017;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 smooth-scroll">
+    <!-- Hero Section with Full-Width Background Image -->
+    <section class="bg-cover bg-center min-h-screen flex items-center justify-center" style="background-image: url('https://via.placeholder.com/1920x1080?text=Resource+Landscape');">
+        <div class="w-full bg-black/50 min-h-screen flex items-center justify-center">
+            <div class="container mx-auto px-4 py-12 text-center">
+                <div>
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-2">Amglo Resources</h1>
+                    <p class="text-lg md:text-xl text-white mb-4">Advancing Global Resources Responsibly</p>
+                    <nav class="flex flex-wrap justify-center space-x-4 md:space-x-6 mt-6">
+                        <a href="#metals-minerals" class="hover:text-amber-300 text-white">Metals & Minerals</a>
+                        <a href="#operations" class="hover:text-amber-300 text-white">Operations</a>
+                        <a href="#who-we-are" class="hover:text-amber-300 text-white">Who We Are</a>
+                        <a href="#contact" class="hover:text-amber-300 text-white">Contact</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    fadeElements.forEach(el => observer.observe(el));
-  </script>
+    <!-- Metals & Minerals Section -->
+    <section id="metals-minerals" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-4 text-center text-amber-900">Metals & Minerals</h2>
+            <p class="text-lg text-center mb-8">Explore our range of high-quality commodities for global industries.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="product-tile bg-amber-100 rounded-lg shadow-md overflow-hidden">
+                    <img src="https://via.placeholder.com/300x200?text=Copper+Cathodes+%26+Rods" alt="Copper Cathodes & Rods" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2 text-amber-900">Copper Cathodes & Rods</h3>
+                        <p class="text-gray-600">High-purity copper for electrical applications.</p>
+                        <div class="product-details">
+                            <p class="text-gray-600 mt-2">Our copper cathodes and rods are produced to 99.99% purity, ideal for electrical wiring, electronics, and industrial machinery. Sourced from premier global refineries.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-tile bg-amber-100 rounded-lg shadow-md overflow-hidden">
+                    <img src="https://via.placeholder.com/300x200?text=Aluminium+Rods+%26+Ingots" alt="Aluminium Rods & Ingots" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2 text-amber-900">Aluminium Rods & Ingots</h3>
+                        <p class="text-gray-600">Premium aluminium for manufacturing.</p>
+                        <div class="product-details">
+                            <p class="text-gray-600 mt-2">Our aluminium rods and ingots are used in construction, automotive, and aerospace industries, offering high strength and corrosion resistance.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-tile bg-amber-100 rounded-lg shadow-md overflow-hidden">
+                    <img src="https://via.placeholder.com/300x200?text=Alumina" alt="Alumina" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2 text-amber-900">Alumina</h3>
+                        <p class="text-gray-600">High-quality alumina for ceramics.</p>
+                        <div class="product-details">
+                            <p class="text-gray-600 mt-2">Our alumina is refined for use in aluminium production and high-performance ceramics, ensuring consistent quality for industrial applications.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-tile bg-amber-100 rounded-lg shadow-md overflow-hidden">
+                    <img src="https://via.placeholder.com/300x200?text=Bauxite" alt="Bauxite" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2 text-amber-900">Bauxite</h3>
+                        <p class="text-gray-600">Raw ore for alumina production.</p>
+                        <div class="product-details">
+                            <p class="text-gray-600 mt-2">Our bauxite is sourced from high-grade deposits, serving as a key raw material for alumina and aluminium production worldwide.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Operations Section -->
+    <section id="operations" class="py-16 bg-amber-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-4 text-center text-amber-900">Operations</h2>
+            <p class="text-lg text-center mb-12 text-gray-700">We operate a diverse portfolio of assets across the globe, from trading to risk management.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="operation-card bg-amber-100 rounded-lg shadow-md overflow-hidden">
+                    <img src="https://via.placeholder.com/300x200?text=Trading" alt="Trading" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2 text-amber-900">Trading</h3>
+                        <p class="text-gray-600">We connect producers and consumers through efficient commodity trading networks.</p>
+                    </div>
+                </div>
+                <div class="operation-card bg-amber-100 rounded-lg shadow-md overflow-hidden">
+                    <img src="https://via.placeholder.com/300x200?text=Logistics" alt="Logistics" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2 text-amber-900">Logistics</h3>
+                        <p class="text-gray-600">Our global logistics ensure timely delivery of commodities to our clients.</p>
+                    </div>
+                </div>
+                <div class="operation-card bg-amber-100 rounded-lg shadow-md overflow-hidden">
+                    <img src="https://via.placeholder.com/300x200?text=Risk+Management" alt="Risk Management" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2 text-amber-900">Risk Management</h3>
+                        <p class="text-gray-600">We employ advanced strategies to mitigate financial and operational risks in volatile markets.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who We Are Section -->
+    <section id="who-we-are" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-4 text-center text-amber-900">Who We Are</h2>
+            <p class="text-lg text-center mb-8 text-gray-700">Founded in 1987, Amglo Resources is a global leader in the natural resources sector, specializing in the production, trading, and distribution of metals, minerals, and energy products. With operations in over 20 countries, we are committed to responsible sourcing and sustainable practices.</p>
+            <p class="text-lg text-center text-gray-700">Our mission is to deliver value to our stakeholders while supporting the global transition to a low-carbon economy.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-amber-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-4 text-center text-amber-900">Contact</h2>
+            <p class="text-lg text-center mb-8 text-gray-700">Get in touch for inquiries or support</p>
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <h3 class="text-xl font-semibold mb-4 text-amber-900">Our Offices</h3>
+                    <div class="text-gray-700">
+                        <p class="mb-2"><strong>Headquarters:</strong></p>
+                        <p class="mb-2">301 Elphinstone House,</p>
+                        <p class="mb-2">17 Murzban Road,</p>
+                        <p class="mb-2">Mumbai 400001, India</p>
+                        <p class="mb-2"><strong>Email:</strong> info@amgloresources.com</p>
+                        <p><strong>Phone:</strong> +91 22 6120 9191</p>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <h3 class="text-xl font-semibold mb-4 text-amber-900">Send a Message</h3>
+                    <form>
+                        <input type="text" placeholder="Name" class="w-full p-2 mb-4 border rounded border-amber-300 focus:outline-none focus:border-amber-500">
+                        <input type="email" placeholder="Email" class="w-full p-2 mb-4 border rounded border-amber-300 focus:outline-none focus:border-amber-500">
+                        <textarea placeholder="Message" class="w-full p-2 mb-4 border rounded border-amber-300 focus:outline-none focus:border-amber-500" rows="4"></textarea>
+                        <button type="submit" class="bg-amber-700 hover:bg-amber-600 text-white py-2 px-4 rounded">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-amber-200 py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>© 2025 Amglo Resources Private Limited. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
